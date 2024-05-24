@@ -9,7 +9,7 @@ from pymongo import MongoClient, database
 
 
 class DB:
-    CONNECTION_STRING = "mongodb://m.mihailov:eevah0aiZieTh@mongo-replica.db.ss-dc.distmed.com:27017/?authSource=history&readPreference=secondary"
+    CONNECTION_STRING = "*****"
 
     def __init__(self, pipeline: dict) -> None:
         self.pipe = pipeline
